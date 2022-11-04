@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .main_header {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 40px;
+  }
+  
+  h3, 
+  h5{
+    text-transform: uppercase;
+  }
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+
+  a {
+    padding: 40px;
+    padding-bottom: 20px;
+  }
+
+  a:link {
+    color: #ffffff;
+    text-decoration: none; /*brak podkreslenia*/
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:active {
+    background-color: black;
+    font-style: italic;
+  }
+
+  .pasek {
+    background-color: #386641;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    padding-bottom: 20px;
+  }
+
+  .photo {
+    text-align: center;
+    border-top: 5px solid #000; 
+  }
+
+  .shop {
+    background-color: #386641;
+    height: 600px;
+    border-top: 5px solid #000;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    padding: 50px;
+    padding-bottom: 80px;
+    margin-left: 30px;
+    font-size: 30px;
+  }
+
+  .product {
+    display: inline-block;
+    position: absolute;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .shopy img {
+    transition-duration: 3s;
+  }
+
+  .shopy img:hover {
+    transform: scale(1.2);
+  }
+
+  .shopy:active {
+    background-color: #386641;
+  }
+
+  .prod1 {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+
+  .prod2 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .prod3 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .prod4 {
+    padding-right: 20px;
+    padding-left: 0;
+  }
+
+  footer {
+    background-color: #000000;
+    height: 380px;
+    padding-top: 50px;
+    color: #ffffff;
+  }
+  
+  .box1 {
+    text-transform: uppercase;
+    font-size: 13.5px;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+  }
+
+  .box2 {
+    text-transform: uppercase;
+    font-size: 13.5px;
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+  }
+
+  .box3 {
+    display: inline-block;
+    position: absolute;
+    left: 700px;
+    padding-right: 100px;
+  }
+  
+  li {
+    list-style-type: none;
+    line-height: 25px;
+    cursor: pointer;
+  }
+
+  li:link {
+    color: #ffffff;
+    text-decoration: none; /*brak podkreslenia*/
+  }
+  
+  li:visited {
+    color: #ffffff;
+  }
+  
+  li:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  li:active {
+    background-color: black;
+    font-style: italic;
+  }
+
+  .informacje {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .moje_zamowienie {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  p {
+    line-height: 25px;
+    font-size: 15px;
+  }
